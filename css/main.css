@@ -37,6 +37,17 @@ body, html {
 
 @media only screen 
 and (min-device-width : 668px) {
+
+.logo {
+	display:block;
+	margin: 34px auto 0px auto;
+}
+
+.logotype {
+	display:block;
+	margin: 16px auto 0px auto;
+}
+
 .hero {
 	margin-top: 22px;
 	width: 100%;
@@ -52,6 +63,17 @@ and (min-device-width : 668px) {
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) {
+.logo {
+	display:block;
+	margin: 34px auto 0px auto;
+	width: 90px;
+}
+
+.logotype {
+	display:block;
+	margin: 16px auto 0px auto;
+	width: 210px;
+}
 .hero {
 	margin-top: 22px;
 	width: 100%;

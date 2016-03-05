@@ -56,7 +56,7 @@ and (orientation : portrait) {
 	margin-top: 22px;
 	width: 100%;
 	background-image: url('../img/romi_pierre_portraits_009.JPG');
-	background-size: auto 80%;
+	background-size: auto 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 }

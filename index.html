@@ -7,6 +7,11 @@
 <meta name="viewport" content="initial-scale=1">
 <meta name="viewport" content="width=device-width">
 <script src="js/jquery-1.12.1.min.js"></script>
+<script>
+	$( window ).load(function() {
+		$('.hero').height($(window).height() - 218);
+	});
+</script>
 </head>
 <body>
 	<div style="width:100%;height:162px;">
@@ -19,12 +24,5 @@
 	</div>
 	</div>
 	<div class="hero"></div>
-
-	<script>
-		$( window ).load(function() {
-			$('.hero').height($(window).height() - 218);
-		});
-	</script>
-	<noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>

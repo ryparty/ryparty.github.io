@@ -53,6 +53,7 @@ and (min-device-width : 668px) {
 	width: 100%;
 	background-image: url('../img/romi_pierre_portraits_009.JPG');
 	background-size: cover;
+	-webkit-background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
